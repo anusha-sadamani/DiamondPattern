@@ -8,7 +8,6 @@ public class DiamondPattern {
 
      
         for (int i = 1; i <= n; i++) {
-            // Print leading spaces
             for (int j = n; j > i; j--) {
                 System.out.print(" ");
             }
@@ -21,7 +20,6 @@ public class DiamondPattern {
 
        
         for (int i = n - 1; i >= 1; i--) {
-            // Print leading spaces
             for (int j = n; j > i; j--) {
                 System.out.print(" ");
             }
